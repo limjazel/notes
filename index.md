@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "Notes"
-  text: "Wiki, docs, notes and ramblings."
-  tagline: My great project tagline
+  name: "Wiki, docs, notes and ramblings."
+  text: "A lot of texts."
+  tagline: There is no tagline.
   actions:
     - theme: brand
       text: Markdown Examples
