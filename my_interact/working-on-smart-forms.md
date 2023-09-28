@@ -27,8 +27,6 @@ Later, a composable will be introduced which will make the transfer of the form 
 
 Before we can do anything with the smart form fields, the PDF design (with fillable fields, [(important) see how to properly name smart form fields here](#naming-smart-form-fields)) should be uploaded in SAM.
 
-**For testing environment**
-
 - Upload the PDF in SAM with the company of your choice.
 
   ![Alt text](./images/smart-form/sam-admin-smart-form-dialog.png "image of smart form upload dialog box")
@@ -51,7 +49,7 @@ TLDR: This will handle the data we're submitting and be transferred to the PDF w
 
 ### Path
 
-(itSam.baseUrl)/rest/survey/results
+For the axios request – ***(itSam.baseUrl)/rest/survey/results***
 
 ### HTTP Request Params/Object
 
@@ -130,7 +128,7 @@ const resultForm = {
 ### toSmartFormPayload composable
 
 This will return the object required for the API request. You can see how it's used on the sample submit function below.
-Where the
+Where the:
 
 - id - is the form id generated from SAM upon uploading the PDF
 - form - is the resultForm object as the example above
