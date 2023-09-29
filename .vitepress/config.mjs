@@ -2,6 +2,7 @@ import { defineConfig } from "vitepress"
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+	base: "/notes",
 	title: "Notes",
 	description: "Wiki, docs, notes and ramblings.",
 	themeConfig: {
