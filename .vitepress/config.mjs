@@ -9,7 +9,7 @@ export default defineConfig({
 		// https://vitepress.dev/reference/default-theme-config
 		nav: [
 			{
-				text: "Notes",
+				text: "My Interact",
 				items: [
 					{
 						text: "Working on smart forms",
