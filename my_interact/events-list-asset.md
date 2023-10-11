@@ -1,6 +1,6 @@
 # Events list asset
 
-Events list asset is the something that stores
+A wall where MI users can see upcoming events from a specific company/organization. This asset has an admin side to manage the events, admin users and the asset (theme) settings.
 
 ## Content outline
 
@@ -42,3 +42,7 @@ Events list asset is the something that stores
 - #### Settings page – contains the settings for theming the asset
   - Accent color – applies the color theme to the whole asset including the admin side
   - Home page banner text – changes the home page headline and description
+
+
+## How to set up the asset on localhost
+(Work in progress...)
